@@ -1,0 +1,78 @@
+import random
+Walk=input("Vill du vandra på världskartan?, True eller False") 
+
+Walk = Walk.lower() == "true"
+
+while Walk:
+     Chance_Of_encounter=random.randrange(0, 9)
+     if Chance_Of_encounter in [0]:
+          print("Random Encounter Time after 1 km")
+          break
+     else:
+          Chance_Of_encounter=random.randrange(0, 9)
+          if Chance_Of_encounter in [0,1]:
+               print("Random Encounter Time after 2 km")
+               break
+          else:
+               Chance_Of_encounter=random.randrange(0, 9)
+               if Chance_Of_encounter in [0,1,2]:
+                print("Random Encounter Time after 3 km")
+                break
+               else:
+                   Chance_Of_encounter=random.randrange(0, 9)
+                   if Chance_Of_encounter in [0,1,2,3]:
+                    print("Random Encounter Time after 4 km")
+                    break
+                   else:
+                       Chance_Of_encounter=random.randrange(0, 9)
+                       if Chance_Of_encounter in [0,1,2,3,4]:
+                              print("Random Encounter Time after 5 km")
+                              break
+                       else: 
+                           Chance_Of_encounter=random.randrange(0, 9)
+                           if Chance_Of_encounter in [0,1,2,3,4,5]:
+                               print("Random Encounter Time after 6 km")
+                               break
+                           else:
+                               Chance_Of_encounter=random.randrange(0, 9)
+                               if Chance_Of_encounter in [0,1,2,3,4,5,6] :
+                                   print("Random Encounter Time after 7 km")
+                                   break
+                               else: 
+                                   Chance_Of_encounter=random.randrange(0, 9)
+                                   if Chance_Of_encounter in [0,1,2,3,4,5,6,7] :
+                                        print("Random Encounter Time after 8 km")
+                                        break
+                                   else: 
+                                       Chance_Of_encounter=random.randrange(0, 9)
+                                       if Chance_Of_encounter in [0,1,2,3,4,5,6,8] :
+                                           print("Random Encounter Time after 9 km")
+                                           break
+                                       else:
+                                             print("Random Encounter Time after 10 km")
+                                             break
+                                           
+
+                                   
+
+                               
+                           
+                           
+                    
+                    
+                    
+               
+
+
+       
+     
+        
+ 
+    
+
+
+
+
+        
+    
+   
